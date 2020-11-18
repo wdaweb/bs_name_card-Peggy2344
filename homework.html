@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <title>Document</title>
+  <style>
+    * {
+      transition: 1s;
+    }
+
+    @media (max-width: 768px) {
+      .logo {
+        padding: 0;
+      }
+
+      #logo {
+        height: 300px;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .logo {
+        height: 100%;
+        padding: 0;
+      }
+
+      #logo {
+        height: 100%;
+        width: 80%;
+      }
+
+      .row {
+        width: 75%;
+      }
+    }
+
+    .card {
+      border: none;
+    }
+
+    .row {
+      box-shadow: 10px 10px 15px grey;
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body class="vh-100">
+  <div class="container h-100">
+    <div class="card h-100 align-items-center justify-content-center">
+      <div class="row">
+        <div class="col-md-4 logo d-flex align-items-center">
+          <img id="logo" class="card-img" src="logo.jpeg">
+        </div>
+        <div class="col-md-8  d-flex align-items-center">
+          <div class="card-body p-5">
+            <h5 class="card-text">Fronted-End Designer</h5>
+            <h1 class="card-title">FangYu Hsu</h1>
+            <h4 class="card-text mb-5">泰山職訓局</h4>
+            <p class="card-text">
+              住址:24302新北市泰山區貴子里致遠新村55之1號<br>
+              電話:02-2901-8274<br>
+              E-mail:peggy1111@example.com<br>
+              網站:https:''www.fangyu.example.com
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>
